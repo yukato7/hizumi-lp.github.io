@@ -3,6 +3,7 @@ body {
     background-color: #FFFFFF;
     font-family: Hiragino Mincho ProN;
     color: #007083;
+    margin:0;
 }
 
 .main-img {
@@ -25,7 +26,31 @@ body {
     text-align: center;
 }
 
+.bg {
+    width:100%;
+    font-family: Hiragino Mincho ProN;
+    color: white;
+    font-size: 24px;
+}
+
+.caption {
+    padding: 14px;
+    text-align: center;
+}
+
+video {
+    width:100%;
+    position: fixed;
+    z-index: -100;
+    right: 0;
+    opacity: 70%;
+}
+
+
 @media screen and (max-width: 540px) {
-
-
+    .main-desc {
+        width:310px;
+        font-size: 14px;
+        margin: auto;
+    }
 }
